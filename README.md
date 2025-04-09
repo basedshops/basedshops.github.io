@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,43 +15,51 @@
   <!-- Preconnect links for performance -->
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  
+
   <!-- FontAwesome & Google Fonts -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-oBwL+hZUnDPdhjK2DTTXQ1f8LhG4N2mXKoPd+kP4EfykJ7CvjPhxzEtHkLBVbFr+6HXeJ2Y6LbyztC4cZ7z0vQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  
+
   <style>
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: #3b3a2f; /* Dark brown background for a natural feel */
-      color: #e4e4d9; /* Light tan for text */
+      background: #3b3a2f;
+      /* Dark brown background for a natural feel */
+      color: #e4e4d9;
+      /* Light tan for text */
     }
 
     header {
-      background: linear-gradient(135deg, #3e4b3d, #6a7a54); /* Camouflage greens */
+      background: linear-gradient(135deg, #3e4b3d, #6a7a54);
+      /* Camouflage greens */
       padding: 2rem 1rem;
       text-align: center;
-      border-bottom: 4px solid #8a9a5b; /* Light olive green border */
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      border-bottom: 4px solid #8a9a5b;
+      /* Light olive green border */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     }
-    
+
     .logo {
-      max-width: 100px;  /* Logo optimization */
+      max-width: 100px;
+      /* Logo optimization */
       margin-bottom: 1rem;
     }
 
     header h1 {
       margin: 0;
       font-size: 3rem;
-      color: #d4d08c; /* Light olive yellow */
+      color: #d4d08c;
+      /* Light olive yellow */
       letter-spacing: 2px;
-      text-shadow: 2px 2px #1a1a1a; /* Darker shadow for readability */
+      text-shadow: 2px 2px #1a1a1a;
+      /* Darker shadow for readability */
       transition: color 0.3s ease-in-out;
     }
 
     header h1:hover {
-      color: #f1e48f; /* Lighter yellow when hovered */
+      color: #f1e48f;
+      /* Lighter yellow when hovered */
     }
 
     nav {
@@ -58,7 +67,8 @@
     }
 
     nav a {
-      color: #b4b08d; /* Light greenish-beige */
+      color: #b4b08d;
+      /* Light greenish-beige */
       margin: 0 1.5rem;
       text-decoration: none;
       font-weight: 600;
@@ -67,7 +77,8 @@
     }
 
     nav a:hover {
-      color: #f1f1f1; /* Light grayish white for hover effect */
+      color: #f1f1f1;
+      /* Light grayish white for hover effect */
     }
 
     .container {
@@ -77,8 +88,10 @@
     }
 
     .section {
-      background: #555441; /* Muted brown-green background for sections */
-      border: 2px solid #7c7f5f; /* Slightly lighter border */
+      background: #555441;
+      /* Muted brown-green background for sections */
+      border: 2px solid #7c7f5f;
+      /* Slightly lighter border */
       padding: 2rem;
       margin-bottom: 2rem;
       border-radius: 1rem;
@@ -86,25 +99,29 @@
     }
 
     .section h2 {
-      color: #b4b08d; /* Matching greenish-beige color */
+      color: #b4b08d;
+      /* Matching greenish-beige color */
       font-size: 2rem;
       margin-bottom: 1rem;
       transition: color 0.3s ease-in-out;
     }
 
     .section h2:hover {
-      color: #f1e48f; /* Light yellow for hover effect */
+      color: #f1e48f;
+      /* Light yellow for hover effect */
     }
 
     .section p,
     .section a {
       font-size: 1rem;
       line-height: 1.8;
-      color: #d4d08c; /* Light olive yellow for text */
+      color: #d4d08c;
+      /* Light olive yellow for text */
     }
 
     .section a:hover {
-      color: #f1f1f1; /* Light grayish white on hover */
+      color: #f1f1f1;
+      /* Light grayish white on hover */
     }
 
     .social {
@@ -112,7 +129,8 @@
     }
 
     .social a {
-      color: #b4b08d; /* Light greenish-beige */
+      color: #b4b08d;
+      /* Light greenish-beige */
       display: inline-block;
       margin-right: 1.5rem;
       font-size: 1.4rem;
@@ -120,7 +138,8 @@
     }
 
     .social a:hover {
-      color: #f1f1f1; /* Hover color */
+      color: #f1f1f1;
+      /* Hover color */
     }
 
     .social i {
@@ -128,12 +147,14 @@
     }
 
     footer {
-      background: #3b3a2f; /* Dark brown to match the body */
+      background: #3b3a2f;
+      /* Dark brown to match the body */
       padding: 1rem;
       text-align: center;
       font-size: 0.9rem;
       color: #888;
-      border-top: 1px solid #6a7a54; /* Olive green border */
+      border-top: 1px solid #6a7a54;
+      /* Olive green border */
     }
 
     @media (max-width: 600px) {
@@ -165,6 +186,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -213,4 +235,5 @@
   </script>
 
 </body>
+
 </html>
